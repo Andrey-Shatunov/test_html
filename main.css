@@ -1,0 +1,512 @@
+
+@font-face {
+	font-family: "FiraSansM"; /* Гарнитура шрифта */
+	src: url("fonts/FiraSans/FiraSans-Medium.ttf") format("truetype"); /* Путь к файлу со шрифтом */
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "FiraSans-Light"; /* Гарнитура шрифта */
+	src: url("fonts/FiraSans/FiraSans-Light.ttf") format("truetype"); /* Путь к файлу со шрифтом */
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "FiraSans-Regular"; /* Гарнитура шрифта */
+	src: url("fonts/FiraSans/FiraSans-Regular.ttf") format("truetype"); /* Путь к файлу со шрифтом */
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "FiraSans-Bold"; /* Гарнитура шрифта */
+	src: url("fonts/FiraSans/FiraSans-Bold.ttf") format("truetype"); /* Путь к файлу со шрифтом */
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	background: #f6f6f6;
+	font-family: "FiraSans-Light";
+	color: #414141;	
+}
+
+header{
+	border-bottom: 2px solid #cfcfcf;
+	background: #ffffff;
+	padding-top:8px;
+	padding-bottom:4px;
+	#margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.container {
+	width: 100%;
+	max-width: 940px; /*максимальная ширина может иметь другое значение*/
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.container:after, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header_avatar{
+	background: url(./img/iam.jpg) center center;
+	background-size:100%;
+	width: 60px;
+    height: 60px;
+	margin-right: 12px;
+	float: left;
+	border: 2px solid #cfcfcf;
+	border-radius: 50%;
+    /* не забываем о кроссбраузерности */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+.header_name{
+	float: left;
+	font-family: "FiraSans-Regular"; 
+	font-size: 18px;
+	color: #414141;
+	border: 4px solid white;
+	text-decoration: none;
+	line-height: 60px;
+}
+
+
+.header_contact{
+	float: right;
+	font-family: "FiraSans-Bold"; 
+	font-size: 18px;
+	/*color: #414141;*/
+	border: 4px solid white;
+	color: #32c3e5;
+	text-decoration: none;
+	line-height: 60px;	
+}
+
+.header_contact a{
+	color: #32c3e5;
+}
+
+main{
+	background: #f6f6f6;
+	background-size: 100%;
+}
+
+main nav{
+	width: 220px;
+	font-family: "FiraSans-Regular"; 
+	font-size: 18px;
+	color: #414141;
+	text-align: right;
+	float: left;
+}
+
+main nav ul{
+	list-style: none;
+	padding-left:0px;
+    margin-top: 10px;	
+}
+main nav ul li{
+	padding-top: 12px;
+    padding-bottom: 12px;
+	padding-right: 27px;
+}
+main nav ul a{
+	/*display: block;*/
+	text-decoration: none;
+	/*padding-top: 12px;
+    padding-bottom: 12px;
+	padding-right: 27px;*/
+	color: #414141;
+}
+
+main nav ul li.active{
+	border-right: 4px solid #32c3e5;
+	font-family: "FiraSans-Bold"; 
+}
+main nav ul li.active a{
+	color: #32c3e5
+}
+
+main nav ul li:hover{
+	color: #32c3e5
+}
+main nav ul li a:hover{
+	color: #32c3e5
+}
+/*main nav ul li i{
+	margin-right: 14px;
+}*/
+
+main nav ul li a:before {
+  font-family: FontAwesome;
+  margin-right: 14px;
+}
+
+main nav ul li.active a:before {color: #32c3e5;}
+main nav ul li:nth-child(1) a:before {content:"\f21b";}
+main nav ul li:nth-child(2) a:before {content:"\f135";}
+main nav ul li:nth-child(3) a:before {content:"\f0b1";}
+/*main nav ul li:before {
+  font-family: FontAwesome;
+  font-size: 20px;
+  vertical-align:bottom;
+  color: #dd3333; 
+  margin-right: 14px;
+}
+
+main nav ul li:nth-child(1):before {content:"\f1fc";}
+main nav ul li:nth-child(2):before {content:"\f0d0";}
+main nav ul li:nth-child(3):before {content:"\f0cd";}
+main nav ul li:nth-child(4):before {content:"\f028";}
+*/
+
+
+main img.round {
+	width: 220px;
+    height: 220px;
+	float: left;
+	margin-top: 21px;
+	border-radius: 50%;	
+    /* не забываем о кроссбраузерности */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+   }
+   
+main img.superellipse {
+	width: 220px;
+    height: 220px;
+	border-radius: 10px;
+	float: left;
+	/*margin-top: 21px; */
+    /* не забываем о кроссбраузерности */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+   }
+   
+.main_center{
+	background: url(./img/about.jpg) center center;
+	background-size:100%;
+	width: 220px;
+    height: 220px;
+	float: left;
+	margin-top: 21px;
+    margin-left: 64px;
+	border-radius: 50%;
+    /* не забываем о кроссбраузерности */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+main article.main{
+    width: 655px;
+    float: left;
+    /* margin-left: 60px; */
+    padding-left: 65px;
+}
+main article.main_carreer{
+    width: 700px;
+    float: left;
+    /* margin-left: 60px; */
+    padding-left: 20px;
+}
+div.about__right{
+	width:450px;
+	float:right;
+}
+main article.main_carreer ul.carreer {
+	/*float:left;*/
+	list-style: none;
+	padding: 0;
+	margin: 0px 0 0 50px;
+	/*border-left: 5px solid #DAE4F1;*/
+	font-size: 18px;	
+}
+
+main article.main_carreer ul.carreer li{
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+div.career__block{
+    width: 360px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    position: relative;
+    text-align: left;
+	background: #ffffff;
+
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 20px;	
+	padding-bottom: 20px;
+    /* не забываем о кроссбраузерности 
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;*/
+}
+
+.career__year {
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    line-height: 30px;
+    margin-top: -15px;
+    margin-right: 28px;
+	font-size:14px;
+	padding-right: 6px;
+}
+
+.career__year:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #33c1e3;
+    border-radius: 50%;
+    position: absolute;
+    right: -14px;
+    top: 50%;
+    margin-top: -5px;
+    z-index: 1;
+}
+
+div.career__block:hover{
+	background: #32c3e3;
+	color: white;
+}
+
+div.career__block:hover .career__year {
+	color: #414141;
+}
+
+div.career__block:hover .career__year:after {
+	box-shadow: 0px 0px 9px #32c3e5;
+}
+
+/*
+ul.carreer li {
+	width: 380px;
+    height: 108px;
+    background: #ffffff;
+	margin-bottom: 12px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 20px;	
+    /* не забываем о кроссбраузерности 
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}*/
+div.name_organisation{
+	font-family: "FiraSans-Regular"; 
+	font-size: 20px;
+}
+
+.career__block:before, .career__block:after {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #dddddd;
+    position: absolute;
+    left: -20px;
+}
+.career__block:before {
+    top: 0;
+    bottom: 50%;
+    margin-bottom: 10px;
+}
+
+.career__block:after {
+    top: 50%;
+    bottom: 0%;
+    margin-top: 10px;
+	margin-bottom: -22px;
+}
+
+main article.main_carreer ul.carreer li:first-child .career__block:before {
+  display: none;
+}
+
+main article.main_carreer ul.carreer li:last-child .career__block::after {
+  display: none;
+}
+/*
+ul.carreer li:before {
+  content: "ывавыаыа";
+  display: inline-block;
+  background: #CA682D;
+  width: 10px;
+  height: 10px;
+  left: -9px;
+  position: relative;
+  border-radius: 50%;
+  margin-right: .5em;
+}
+*/
+main article h2.about{
+	font-family: "FiraSans-Bold";
+	font-size: 34px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+main article h2{
+	font-family: "FiraSans-Bold";
+	font-size: 34px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+main article.about_me{
+    width: 375px;
+    /*padding-left: 60px;*/
+    float: right;
+}
+
+main article.about_me_text{
+	height: 345px;
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+main article p{
+	font-family: "FiraSans-Light";
+	font-size: 18px;
+	line-height: 27px;
+	word-spacing: 3px;
+}
+
+
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+::-webkit-scrollbar{
+    width:5px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #777;
+}
+
+::-webkit-scrollbar-track{
+    border-width:0;
+}
+
+::-webkit-scrollbar-track:hover{
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+}
+
+button.resume{
+    width: 170px;
+    height: 40px;
+    border-radius: 25px;
+    /*text-decoration: none;*/
+    background: white;
+    border: 2px solid #e85f61;
+    color: #e85f61;
+    font-family: FiraSansM;
+	/*margin-left: 205px;*/
+    margin-top: 50px;
+	float: right;
+}
+
+button.resume:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 25px;
+	color: #ffffff;
+    /*text-decoration: none;*/
+    background: #e85f61;
+    border: 2px solid #e85f61;
+    font-family: FiraSansM;
+	/*margin-left: 205px;*/
+    margin-top: 50px;
+	float: right;
+}
+
+
+button.resume:before {
+	font-family: FontAwesome;
+	content:"\f019";
+}
+
+footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 51px;
+	/*background: #414141;*/
+	background: #414141;
+}
+
+.footer{
+	font-family: FiraSans-Light;
+	width: 100%;
+	max-width: 940px; /*максимальная ширина может иметь другое значение*/
+	padding: 0 15px;
+	margin: 0 auto;
+	color: #6b6b6b;
+	padding-top: 9px;
+}
+
+.footer_leftstr {
+    float: left; /* Обтекание справа */
+	font-size: 14px;
+	margin-top: -4px;
+     /* Ширина текстового блока */ 
+}
+
+.footer_rightstr{
+	width:120px;
+	float: right;
+}
+.footer_rightstr ul li{
+	display: inline;
+}
+.footer_rightstr a{
+    text-align: center;
+	float: left;
+	width: 30px;
+	height: 30px;
+	/*border: 1px solid #909090;*/
+	border-radius: 100%;
+	margin-right: 7px; /*space between*/
+	background: #9c9c9c;
+} 
+
+.footer_rightstr a.active{
+	background: #5d99c3;
+}
+.footer_rightstr a i{
+	font-size: 14px;
+    line-height: 31px;
+	color: #414141;
+}
+
+/* ------------------- */
