@@ -1,55 +1,55 @@
 
 @font-face {
-	font-family: "FiraSansM"; /* Гарнитура шрифта */
-	src: url("fonts/FiraSans/FiraSans-Medium.ttf") format("truetype"); /* Путь к файлу со шрифтом */
-	font-style: normal; 
-	font-weight: normal; 
+    font-family: "FiraSansM"; /* Гарнитура шрифта */
+    src: url("fonts/FiraSans/FiraSans-Medium.ttf") format("truetype"); /* Путь к файлу со шрифтом */
+    font-style: normal; 
+    font-weight: normal; 
 }
 
 @font-face {
-	font-family: "FiraSans-Light"; /* Гарнитура шрифта */
-	src: url("fonts/FiraSans/FiraSans-Light.ttf") format("truetype"); /* Путь к файлу со шрифтом */
-	font-style: normal; 
-	font-weight: normal; 
+    font-family: "FiraSans-Light"; /* Гарнитура шрифта */
+    src: url("fonts/FiraSans/FiraSans-Light.ttf") format("truetype"); /* Путь к файлу со шрифтом */
+    font-style: normal; 
+    font-weight: normal; 
 }
 
 @font-face {
-	font-family: "FiraSans-Regular"; /* Гарнитура шрифта */
-	src: url("fonts/FiraSans/FiraSans-Regular.ttf") format("truetype"); /* Путь к файлу со шрифтом */
-	font-style: normal; 
-	font-weight: normal; 
+    font-family: "FiraSans-Regular"; /* Гарнитура шрифта */
+    src: url("fonts/FiraSans/FiraSans-Regular.ttf") format("truetype"); /* Путь к файлу со шрифтом */
+    font-style: normal; 
+    font-weight: normal; 
 }
 
 @font-face {
-	font-family: "FiraSans-Bold"; /* Гарнитура шрифта */
-	src: url("fonts/FiraSans/FiraSans-Bold.ttf") format("truetype"); /* Путь к файлу со шрифтом */
-	font-style: normal; 
-	font-weight: normal; 
+    font-family: "FiraSans-Bold"; /* Гарнитура шрифта */
+    src: url("fonts/FiraSans/FiraSans-Bold.ttf") format("truetype"); /* Путь к файлу со шрифтом */
+    font-style: normal; 
+    font-weight: normal; 
 }
 
 
 body{
-	margin:0;
-	padding:0;
-	background: #f6f6f6;
-	font-family: "FiraSans-Light";
-	color: #414141;	
+    margin:0;
+    padding:0;
+    background: #f6f6f6;
+    font-family: "FiraSans-Light";
+    color: #414141; 
 }
 
 header{
-	border-bottom: 2px solid #cfcfcf;
-	background: #ffffff;
-	padding-top:8px;
-	padding-bottom:4px;
-	#margin-top: 7px;
+    border-bottom: 2px solid #cfcfcf;
+    background: #ffffff;
+    padding-top:8px;
+    padding-bottom:4px;
+    #margin-top: 7px;
     margin-bottom: 10px;
 }
 
 .container {
-	width: 100%;
-	max-width: 940px; /*максимальная ширина может иметь другое значение*/
-	padding: 0 15px;
-	margin: 0 auto;
+    width: 100%;
+    max-width: 940px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .container:after, .row:after {
   content: "";
@@ -57,14 +57,14 @@ header{
   clear: both;
 }
 .header_avatar{
-	background: url(./img/iam.jpg) center center;
-	background-size:100%;
-	width: 60px;
+    background: url(./img/iam.jpg) center center;
+    background-size:100%;
+    width: 60px;
     height: 60px;
-	margin-right: 12px;
-	float: left;
-	border: 2px solid #cfcfcf;
-	border-radius: 50%;
+    margin-right: 12px;
+    float: left;
+    border: 2px solid #cfcfcf;
+    border-radius: 50%;
     /* не забываем о кроссбраузерности */
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -72,80 +72,80 @@ header{
 }
 
 .header_name{
-	float: left;
-	font-family: "FiraSans-Regular"; 
-	font-size: 18px;
-	color: #414141;
-	border: 4px solid white;
-	text-decoration: none;
-	line-height: 60px;
+    float: left;
+    font-family: "FiraSans-Regular"; 
+    font-size: 18px;
+    color: #414141;
+    border: 4px solid white;
+    text-decoration: none;
+    line-height: 60px;
 }
 
 
 .header_contact{
-	float: right;
-	font-family: "FiraSans-Bold"; 
-	font-size: 18px;
-	/*color: #414141;*/
-	border: 4px solid white;
-	color: #32c3e5;
-	text-decoration: none;
-	line-height: 60px;	
+    float: right;
+    font-family: "FiraSans-Bold"; 
+    font-size: 18px;
+    /*color: #414141;*/
+    border: 4px solid white;
+    color: #32c3e5;
+    text-decoration: none;
+    line-height: 60px;  
 }
 
 .header_contact a{
-	color: #32c3e5;
+    color: #32c3e5;
 }
 
 main{
-	background: #f6f6f6;
-	background-size: 100%;
+    background: #f6f6f6;
+    background-size: 100%;
 }
 
 main nav{
-	width: 220px;
-	font-family: "FiraSans-Regular"; 
-	font-size: 18px;
-	color: #414141;
-	text-align: right;
-	float: left;
+    width: 220px;
+    font-family: "FiraSans-Regular"; 
+    font-size: 18px;
+    color: #414141;
+    text-align: right;
+    float: left;
 }
 
 main nav ul{
-	list-style: none;
-	padding-left:0px;
-    margin-top: 10px;	
+    list-style: none;
+    padding-left:0px;
+    margin-top: 10px;   
 }
 main nav ul li{
-	padding-top: 12px;
+    padding-top: 12px;
     padding-bottom: 12px;
-	padding-right: 27px;
+    padding-right: 27px;
 }
 main nav ul a{
-	/*display: block;*/
-	text-decoration: none;
-	/*padding-top: 12px;
+    /*display: block;*/
+    text-decoration: none;
+    /*padding-top: 12px;
     padding-bottom: 12px;
-	padding-right: 27px;*/
-	color: #414141;
+    padding-right: 27px;*/
+    color: #414141;
 }
 
 main nav ul li.active{
-	border-right: 4px solid #32c3e5;
-	font-family: "FiraSans-Bold"; 
+    border-right: 4px solid #32c3e5;
+    font-family: "FiraSans-Bold"; 
 }
 main nav ul li.active a{
-	color: #32c3e5
+    color: #32c3e5
 }
 
 main nav ul li:hover{
-	color: #32c3e5
+    color: #32c3e5
 }
 main nav ul li a:hover{
-	color: #32c3e5
+    color: #32c3e5
 }
 /*main nav ul li i{
-	margin-right: 14px;
+    margin-right: 14px;
 }*/
 
 main nav ul li a:before {
@@ -173,11 +173,11 @@ main nav ul li:nth-child(4):before {content:"\f028";}
 
 
 main img.round {
-	width: 220px;
+    width: 220px;
     height: 220px;
-	float: left;
-	margin-top: 21px;
-	border-radius: 50%;	
+    float: left;
+    margin-top: 21px;
+    border-radius: 50%; 
     /* не забываем о кроссбраузерности */
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -185,11 +185,11 @@ main img.round {
    }
    
 main img.superellipse {
-	width: 220px;
+    width: 220px;
     height: 220px;
-	border-radius: 10px;
-	float: left;
-	/*margin-top: 21px; */
+    border-radius: 10px;
+    float: left;
+    /*margin-top: 21px; */
     /* не забываем о кроссбраузерности */
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -197,14 +197,14 @@ main img.superellipse {
    }
    
 .main_center{
-	background: url(./img/about.jpg) center center;
-	background-size:100%;
-	width: 220px;
+    background: url(./img/about.jpg) center center;
+    background-size:100%;
+    width: 220px;
     height: 220px;
-	float: left;
-	margin-top: 21px;
+    float: left;
+    margin-top: 21px;
     margin-left: 64px;
-	border-radius: 50%;
+    border-radius: 50%;
     /* не забываем о кроссбраузерности */
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -224,21 +224,21 @@ main article.main_carreer{
     padding-left: 20px;
 }
 div.about__right{
-	width:450px;
-	float:right;
+    width:450px;
+    float:right;
 }
 main article.main_carreer ul.carreer {
-	/*float:left;*/
-	list-style: none;
-	padding: 0;
-	margin: 0px 0 0 50px;
-	/*border-left: 5px solid #DAE4F1;*/
-	font-size: 18px;	
+    /*float:left;*/
+    list-style: none;
+    padding: 0;
+    margin: 0px 0 0 50px;
+    /*border-left: 5px solid #DAE4F1;*/
+    font-size: 18px;    
 }
 
 main article.main_carreer ul.carreer li{
-	text-align: right;
-	margin-bottom: 20px;
+    text-align: right;
+    margin-bottom: 20px;
 }
 
 div.career__block{
@@ -247,12 +247,12 @@ div.career__block{
     display: inline-block;
     position: relative;
     text-align: left;
-	background: #ffffff;
+    background: #ffffff;
 
-	border-radius: 10px;
-	padding-left: 20px;
-	padding-top: 20px;	
-	padding-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;  
+    padding-bottom: 20px;
     /* не забываем о кроссбраузерности 
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -266,8 +266,8 @@ div.career__block{
     line-height: 30px;
     margin-top: -15px;
     margin-right: 28px;
-	font-size:14px;
-	padding-right: 6px;
+    font-size:14px;
+    padding-right: 6px;
 }
 
 .career__year:after {
@@ -284,35 +284,35 @@ div.career__block{
 }
 
 div.career__block:hover{
-	background: #32c3e3;
-	color: white;
+    background: #32c3e3;
+    color: white;
 }
 
 div.career__block:hover .career__year {
-	color: #414141;
+    color: #414141;
 }
 
 div.career__block:hover .career__year:after {
-	box-shadow: 0px 0px 9px #32c3e5;
+    box-shadow: 0px 0px 9px #32c3e5;
 }
 
 /*
 ul.carreer li {
-	width: 380px;
+    width: 380px;
     height: 108px;
     background: #ffffff;
-	margin-bottom: 12px;
-	border-radius: 10px;
-	padding-left: 20px;
-	padding-top: 20px;	
+    margin-bottom: 12px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;  
     /* не забываем о кроссбраузерности 
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
 }*/
 div.name_organisation{
-	font-family: "FiraSans-Regular"; 
-	font-size: 20px;
+    font-family: "FiraSans-Regular"; 
+    font-size: 20px;
 }
 
 .career__block:before, .career__block:after {
@@ -333,7 +333,7 @@ div.name_organisation{
     top: 50%;
     bottom: 0%;
     margin-top: 10px;
-	margin-bottom: -22px;
+    margin-bottom: -22px;
 }
 
 main article.main_carreer ul.carreer li:first-child .career__block:before {
@@ -357,17 +357,17 @@ ul.carreer li:before {
 }
 */
 main article h2.about{
-	font-family: "FiraSans-Bold";
-	font-size: 34px;
-	margin-top: 15px;
-	margin-bottom: 0px;
+    font-family: "FiraSans-Bold";
+    font-size: 34px;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
 
 main article h2{
-	font-family: "FiraSans-Bold";
-	font-size: 34px;
-	margin-top: 15px;
-	margin-bottom: 20px;
+    font-family: "FiraSans-Bold";
+    font-size: 34px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 main article.about_me{
@@ -377,16 +377,16 @@ main article.about_me{
 }
 
 main article.about_me_text{
-	height: 345px;
-	overflow-x: hidden;
+    height: 345px;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 
 main article p{
-	font-family: "FiraSans-Light";
-	font-size: 18px;
-	line-height: 27px;
-	word-spacing: 3px;
+    font-family: "FiraSans-Light";
+    font-size: 18px;
+    line-height: 27px;
+    word-spacing: 3px;
 }
 
 
@@ -430,83 +430,83 @@ button.resume{
     border: 2px solid #e85f61;
     color: #e85f61;
     font-family: FiraSansM;
-	/*margin-left: 205px;*/
+    /*margin-left: 205px;*/
     margin-top: 50px;
-	float: right;
+    float: right;
 }
 
 button.resume:hover{
     width: 170px;
     height: 40px;
     border-radius: 25px;
-	color: #ffffff;
+    color: #ffffff;
     /*text-decoration: none;*/
     background: #e85f61;
     border: 2px solid #e85f61;
     font-family: FiraSansM;
-	/*margin-left: 205px;*/
+    /*margin-left: 205px;*/
     margin-top: 50px;
-	float: right;
+    float: right;
 }
 
 
 button.resume:before {
-	font-family: FontAwesome;
-	content:"\f019";
+    font-family: FontAwesome;
+    content:"\f019";
 }
 
 footer{
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 51px;
-	/*background: #414141;*/
-	background: #414141;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 51px;
+    /*background: #414141;*/
+    background: #414141;
 }
 
 .footer{
-	font-family: FiraSans-Light;
-	width: 100%;
-	max-width: 940px; /*максимальная ширина может иметь другое значение*/
-	padding: 0 15px;
-	margin: 0 auto;
-	color: #6b6b6b;
-	padding-top: 9px;
+    font-family: FiraSans-Light;
+    width: 100%;
+    max-width: 940px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+    color: #6b6b6b;
+    padding-top: 9px;
 }
 
 .footer_leftstr {
     float: left; /* Обтекание справа */
-	font-size: 14px;
-	margin-top: -4px;
+    font-size: 14px;
+    margin-top: -4px;
      /* Ширина текстового блока */ 
 }
 
 .footer_rightstr{
-	width:120px;
-	float: right;
+    width:120px;
+    float: right;
 }
 .footer_rightstr ul li{
-	display: inline;
+    display: inline;
 }
 .footer_rightstr a{
     text-align: center;
-	float: left;
-	width: 30px;
-	height: 30px;
-	/*border: 1px solid #909090;*/
-	border-radius: 100%;
-	margin-right: 7px; /*space between*/
-	background: #9c9c9c;
+    float: left;
+    width: 30px;
+    height: 30px;
+    /*border: 1px solid #909090;*/
+    border-radius: 100%;
+    margin-right: 7px; /*space between*/
+    background: #9c9c9c;
 } 
 
 .footer_rightstr a.active{
-	background: #5d99c3;
+    background: #5d99c3;
 }
 .footer_rightstr a i{
-	font-size: 14px;
+    font-size: 14px;
     line-height: 31px;
-	color: #414141;
+    color: #414141;
 }
 
 /* ------------------- */
